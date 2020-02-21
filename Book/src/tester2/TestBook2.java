@@ -15,11 +15,7 @@ public class TestBook2
 
 	public static void main(String[] args) 
 	{
-
-
 		try(Scanner sc=new Scanner(System.in))
-		
-		
 		{
 			HashMap<String, Book> totalBook = populateBook();
 			HashMap<String, Book> bookCart = new HashMap<>();
@@ -55,7 +51,6 @@ public class TestBook2
 					System.out.println(bookCart.values());
 					
 					break;
-					
 					
 				case 3:
 					System.out.println("User cart:");
@@ -96,7 +91,6 @@ public class TestBook2
 				}
 				sc.nextLine();
 			}
-			
 			
 		}
 		catch(Exception e)
