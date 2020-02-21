@@ -38,7 +38,7 @@ public class TestBook1 {
 					System.out.println("Enter the date to add Book[title, author price, publish date(dd-MM-yyyy)]");
 					String title = sc.next();
 					book.put(title, new Book(title, sc.next(), sc.nextDouble(), sdf.parse(sc.next())));
-				break;
+					break;
 				
 				case 2:
 					for(Book e: book.values())
