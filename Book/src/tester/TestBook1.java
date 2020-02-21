@@ -17,12 +17,6 @@ public class TestBook1 {
 			HashMap<String, Book> book = populateBook();
 			boolean exit = false;
 			
-			
-			
-				
-			
-			
-			
 			while(!exit)
 			{
 				System.out.println("Menu: \n1.Add Book \n2.Show Book Details \n3.exit");
