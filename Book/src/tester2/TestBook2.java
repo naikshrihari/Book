@@ -64,7 +64,6 @@ public class TestBook2
 				case 4:
 					System.in.println("Total selected books: ")
 						
-					
 					exit = true;
 					int counter1 = 0;
 					double price = 0;
