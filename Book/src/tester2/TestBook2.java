@@ -30,7 +30,6 @@ public class TestBook2
 				System.out.println("Menu: \n1.Display book Details \n2.Add book to cart \n3.show cart Book \n4. Exit");
 				System.out.println("Enter your choice:");
 				
-				
 				try
 				{
 				
@@ -43,7 +42,6 @@ public class TestBook2
 					{
 						System.out.println(b);
 					}
-				
 				
 					break;
 				
@@ -88,10 +86,6 @@ public class TestBook2
 					
 					
 					break;
-					
-				
-					
-					
 					
 				}
 				
